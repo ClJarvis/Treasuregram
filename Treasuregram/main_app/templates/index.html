@@ -1,0 +1,17 @@
+{% load staticfiles %}
+
+<!DOCTYPE html>
+<html>
+<head>
+<link rel="stylesheet" type="text/css" href="{% static 'bootstrap.min.css' %}" />
+  <link rel="stylesheet" type="text/css" href="{% static 'style.css' %}" />
+  <title>TreasurGram</title>
+</head>
+<body>
+  <nav class="navbar navbar-default navabar-static-top text-center">
+  </nav>
+  <h1>TreasureGram Tutorial</h1>
+  <p>{{ treasure_name}}</p>
+  <p>{{ treasure_val}}</p>
+</body>
+</html>
